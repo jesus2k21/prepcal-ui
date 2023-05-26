@@ -164,18 +164,6 @@
     margin-bottom: 30px;
 }
 
-table.tablesorter thead tr .header{
-  background: url("/img/bg.gif") no-repeat center right;
-  cursor: pointer;
-}
-
-table.tablesorter thead tr .headerSortUp {
-	background-image: url("/img/asc.gif");
-}
-table.tablesorter thead tr .headerSortDown {
-	background-image: url("/img/desc.gif");
-}
-
 // datatables
 
 .dataTables_wrapper {
