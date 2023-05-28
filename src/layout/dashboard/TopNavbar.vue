@@ -13,7 +13,7 @@
             <span class="navbar-toggler-bar bar3"></span>
           </button>
         </div>
-        <a class="navbar-brand" href="#pablo">{{routeName}}</a>
+        <a class="navbar-brand" href="#pablo">PREPCAL</a>
       </div>
       <button class="navbar-toggler" type="button"
               @click="toggleMenu"
@@ -29,10 +29,10 @@
       <collapse-transition>
         <div class="collapse navbar-collapse show" v-show="showMenu">
           <ul class="navbar-nav" :class="$rtl.isRTL ? 'mr-auto' : 'ml-auto'">
-            <div class="search-bar input-group" @click="searchModalVisible = true">
+            <div class="search-bar input-group" @click="searchModalVisible = false" visibility: hidden>
               <!-- <input type="text" class="form-control" placeholder="Search...">
               <div class="input-group-addon"><i class="tim-icons icon-zoom-split"></i></div> -->
-              <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal">
+              <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal" visibility: hidden>
                 <i class="tim-icons icon-zoom-split"></i>
               </button>
               <!-- You can choose types of search input -->
