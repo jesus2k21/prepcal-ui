@@ -3,9 +3,12 @@
     <side-bar>
       <template slot="links">
         <sidebar-link to="/dashboard" :name="$t('sidebar.dashboard')" icon="tim-icons icon-chart-pie-36"/>
-        <sidebar-link to="/maps" :name="$t('sidebar.maps')" icon="tim-icons icon-pin"/>
-        <sidebar-link to="/notifications" :name="$t('sidebar.notifications')" icon="tim-icons icon-bell-55"/>
+        <sidebar-link to="/start" :name="$t('sidebar.start')" icon="tim-icons icon-chart-pie-36"/>
+        <sidebar-link to="/summary" :name="$t('sidebar.summary')" icon="tim-icons icon-notes"/>
+        <sidebar-link to="/categories" :name="$t('sidebar.categories')" icon="tim-icons icon-bullet-list-67"/>
+        <sidebar-link to="/settings" :name="$t('sidebar.settings')" icon="tim-icons icon-settings"/>
         <sidebar-link to="/profile" :name="$t('sidebar.userProfile')" icon="tim-icons icon-single-02"/>
+        <sidebar-link to="/notifications" :name="$t('sidebar.notifications')" icon="tim-icons icon-bell-55"/>
         <sidebar-link to="/table-list" :name="$t('sidebar.tableList')" icon="tim-icons icon-puzzle-10"/>
       </template>
     </side-bar>

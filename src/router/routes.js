@@ -4,9 +4,12 @@ import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
 const Dashboard = () => import(/* webpackChunkName: "dashboard" */"@/pages/Dashboard.vue");
+const Start = () => import(/* webpackChunkName: "start" */"@/pages/Start.vue");
+const Summary = () => import(/* webpackChunkName: "common" */ "@/pages/Summary.vue");
+const Categories = () => import(/* webpackChunkName: "common" */ "@/pages/Categories.vue"); 
+const Settings = () => import(/* webpackChunkName: "common" */ "@/pages/Settings.vue"); 
 const Profile = () => import(/* webpackChunkName: "common" */ "@/pages/Profile.vue");
 const Notifications = () => import(/* webpackChunkName: "common" */"@/pages/Notifications.vue");
-const Maps = () => import(/* webpackChunkName: "common" */ "@/pages/Maps.vue");
 const TableList = () => import(/* webpackChunkName: "common" */ "@/pages/TableList.vue");
 
 const routes = [
@@ -21,6 +24,26 @@ const routes = [
         component: Dashboard
       },
       {
+        path: "start",
+        name: "start",
+        component: Start
+      },
+      {
+        path: "summary",
+        name: "summary",
+        component: Summary
+      },
+      {
+        path: "categories",
+        name: "categories",
+        component: Categories
+      },
+      {
+        path: "settings",
+        name: "settings",
+        component: Settings
+      },
+      {
         path: "profile",
         name: "profile",
         component: Profile
@@ -29,11 +52,6 @@ const routes = [
         path: "notifications",
         name: "notifications",
         component: Notifications
-      },
-      {
-        path: "maps",
-        name: "maps",
-        component: Maps
       },
       {
         path: "table-list",

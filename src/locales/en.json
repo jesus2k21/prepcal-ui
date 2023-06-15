@@ -111,10 +111,13 @@
     ]
   },
   "sidebar": {
-    "title": "Creative Tim",
-    "shortTitle": "CT",
+    "title": "PrepCal",
+    "shortTitle": "PrepCal",
     "dashboard": "dashboard",
-    "maps": "Maps",
+    "start": "start",
+    "summary": "Summary",
+    "categories": "Categories",
+    "settings": "Settings",
     "notifications": "Notifications",
     "userProfile": "User Profile",
     "tableList": "Table List"
